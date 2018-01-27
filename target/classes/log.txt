@@ -1,0 +1,65 @@
+ERROR - session time out or you don't login
+ERROR - session time out or you don't login
+ERROR - session time out or you don't login
+INFO - check user with login 'q'
+INFO - session time out or you don't login
+INFO - check user with login 'q'
+INFO - session time out or you don't login
+ERROR - 
+java.lang.NullPointerException
+	at ua.simpleproject.services.AddProductLogic.addProduct(AddProductLogic.java:55)
+	at ua.simpleproject.command.AddProductCommand.execute(AddProductCommand.java:32)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doPost(Servlet.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+INFO - check user with login 'q'
+INFO - session time out or you don't login
+INFO - check user with login 'q'
+INFO - session time out or you don't login
+INFO - check user with login 'q'
+INFO - session time out or you don't login
+INFO - check user with login 'q'
+INFO - session time out or you don't login
+2018-01-25 16:46:16.998 [main] ERROR (ProductDAOTest:83) - Method read(user id: '1') has thrown an exception.
+2018-01-25 16:47:38.438 [main] ERROR (ProductDAOTest:83) - Method read(user id: '1') has thrown an exception.
+2018-01-25 21:36:05.593 [http-nio-8080-exec-8] INFO  (LoginLogic:22) - check user with login '<input>'
+2018-01-25 21:36:30.138 [http-nio-8080-exec-1] INFO  (LoginLogic:22) - check user with login 'erererer'
+2018-01-25 21:36:35.959 [http-nio-8080-exec-4] INFO  (LoginLogic:22) - check user with login '2453453ert'
+2018-01-25 21:36:40.448 [http-nio-8080-exec-7] INFO  (LoginLogic:22) - check user with login 'we'
+2018-01-25 21:36:47.218 [http-nio-8080-exec-10] INFO  (LoginLogic:22) - check user with login 'q'
+2018-01-25 21:36:47.275 [http-nio-8080-exec-10] INFO  (LoginLogic:48) - session time out or you don't login
+2018-01-25 21:41:49.970 [http-nio-8080-exec-9] INFO  (LoginLogic:22) - check user with login 'q'
+2018-01-25 21:41:49.979 [http-nio-8080-exec-9] INFO  (LoginLogic:48) - session time out or you don't login
+2018-01-26 08:43:31.854 [http-nio-8080-exec-6] INFO  (LoginLogic:22) - check user with login 'цукен'
+2018-01-26 08:50:38.396 [http-nio-8080-exec-1] INFO  (LoginLogic:22) - check user with login 'івів'
+2018-01-26 08:57:31.937 [http-nio-8080-exec-5] INFO  (LoginLogic:22) - check user with login 'івів'
+2018-01-26 09:30:15.696 [http-nio-8080-exec-1] INFO  (LoginLogic:22) - check user with login ''
