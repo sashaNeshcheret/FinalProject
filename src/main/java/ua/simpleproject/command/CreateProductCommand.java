@@ -1,7 +1,7 @@
 package ua.simpleproject.command;
 
 import org.apache.log4j.Logger;
-import ua.simpleproject.dto.ProductCurrentCheck;
+import ua.simpleproject.entity.ProductCurrentCheque;
 import ua.simpleproject.entity.Product;
 import ua.simpleproject.services.CreateProductLogic;
 
@@ -18,7 +18,7 @@ public class CreateProductCommand implements ActionCommand{
 
     @Override
     public String execute(HttpServletRequest request) {
-        List<ProductCurrentCheck> productCurrentCheckList = new ArrayList<>();
+        List<ProductCurrentCheque> productCurrentCheckList = new ArrayList<>();
         String page = null;
 //  взяти назву s код товару і їх кількість з запиту
         String name = (String) request.getParameter("name");
@@ -32,16 +32,16 @@ public class CreateProductCommand implements ActionCommand{
         HttpSession session = request.getSession();
         String login = (String) session.getAttribute("login");
         if (Objects.isNull(login)){
-            page = "/jsp//login.jsp";
+            page = "/login.jsp";
             logger.error("");
             return page;
         }
         try{
             createProductLogic.createProductStock(product);
-            page = "/jsp/general.jsp";
+            page = "/WEB-INF/jsp/general.jsp";
             return page;
         }catch(Exception e){
-            page = "/jsp//error/error1.jsp";
+            page = "/WEB-INF/jsp//error/error1.jsp";
             logger.error("", e);
             return page;
         }

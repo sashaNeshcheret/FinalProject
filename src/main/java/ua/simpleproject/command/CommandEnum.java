@@ -66,6 +66,26 @@ public enum CommandEnum {
         {
             this.command = new PaginationStockCommand();
         }
+    },
+    DELETECHEQUE{
+        {
+            this.command = new DeleteChequeCommand();
+        }
+    },
+    GOTOMAIN {
+        {
+            this.command = new GoToMainCommand();
+        }
+    },
+    GOTOREGISTRATION{
+        {
+            this.command = new GoToRegistrationCommand();
+        }
+    },
+    PAYANDPRINTCHEQUE{
+        {
+            this.command = new PayAndPrintChequeCommand();
+        }
     }
     ;
     ActionCommand command;

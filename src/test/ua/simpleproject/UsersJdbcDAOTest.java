@@ -30,9 +30,9 @@ public class UsersJdbcDAOTest {
 
     @BeforeClass
     public static void BeforeClass() {
-        nonExistingUser = new User("cashier", "ivan", "ivan", "qwe", "because");
-        testUser1 = new User("cashier", "Maр'яна", "best", "qwerty", "valera");
-        testUser2 = new User("senior_cashier", "sasha", "ALEX", "life", "кошеня");
+        nonExistingUser = new User("cashier", "ivan", "Ivanov","ivan", "qwe", "because");
+        testUser1 = new User("cashier", "Maр'яна", "Підгірна", "best", "qwerty", "valera");
+        testUser2 = new User("senior_cashier", "sasha", "Petrov", "ALEX", "life", "кошеня");
 
     }
 

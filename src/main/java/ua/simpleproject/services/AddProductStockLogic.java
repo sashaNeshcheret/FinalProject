@@ -1,6 +1,6 @@
 package ua.simpleproject.services;
 
-import ua.simpleproject.dto.ProductCurrentCheck;
+import ua.simpleproject.entity.ProductCurrentCheque;
 import ua.simpleproject.dao.DAOProduct;
 import ua.simpleproject.dao.DAOStock;
 import ua.simpleproject.dao.Impl.DAOFactory;
@@ -46,14 +46,14 @@ public class AddProductStockLogic {
      * @throws DAOException this is own exception that combines exceptions which
      * happened during work with database
      */
-    public List<ProductCurrentCheck> getStock(int numPage) throws DAOException {
+    public List<ProductCurrentCheque> getStock(int numPage) throws DAOException {
 
         int start = (numPage-1)*10;
         int end = (numPage)*10-1;
-        List<ProductCurrentCheck> list = new ArrayList<>();
+        List<ProductCurrentCheque> list = new ArrayList<>();
         List<Stock> stockList = daoStock.read(start, end);
         for(Stock stock : stockList){
-            ProductCurrentCheck productCurrentCheck = new ProductCurrentCheck();
+            ProductCurrentCheque productCurrentCheck = new ProductCurrentCheque();
             Product product = daoProduct.readById(stock.getProductId());
             productCurrentCheck.setNameProduct(product.getName());
             productCurrentCheck.setCodeProduct(product.getCodeProduct());

@@ -14,8 +14,8 @@ import java.sql.SQLException;
 
 public class DAOUsersImpl implements DAOUsers {
     private static  final String SQL_SELECT = "SELECT * FROM users where login = ?";
-    private static  final String SQL_INSERT = "INSERT INTO cash_register.users (position, name, login, password, " +
-            "check_word) VALUES(?,?,?,?,?)";
+    private static  final String SQL_INSERT = "INSERT INTO cash_register.users (position, name, surname, login, password, " +
+            "date_last_report, check_word) VALUES(?,?,?,?,?,?,?)";
     private static  final String SQL_DELETE = "DELETE from cash_register.users WHERE login = ?";
 
     protected DAOUsersImpl(){
@@ -32,9 +32,11 @@ public class DAOUsersImpl implements DAOUsers {
             PreparedStatement preparedStatement = connection.preparedStatement(SQL_INSERT);
             preparedStatement.setString(1, user.getPosition());
             preparedStatement.setString(2, user.getName());
-            preparedStatement.setString(3, user.getLogin());
-            preparedStatement.setString(4, user.getPassword());
-            preparedStatement.setString(5, user.getCheckWord());
+            preparedStatement.setString(3, user.getSurname());
+            preparedStatement.setString(4, user.getLogin());
+            preparedStatement.setString(5, user.getPassword());
+            preparedStatement.setDate  (6, user.getDateLastReport());
+            preparedStatement.setString(7, user.getCheckWord());
             preparedStatement.executeUpdate();
         } catch (SQLException | ConnectionException e) {
             throw new DAOException();
@@ -59,12 +61,12 @@ public class DAOUsersImpl implements DAOUsers {
                 user.setId(resultSet.getInt(1));
                 user.setPosition(resultSet.getString(2));
                 user.setName(resultSet.getString(3));
-                user.setLogin(resultSet.getString(4));
-                user.setPassword(resultSet.getString(5));
-                user.setCheckWord(resultSet.getString(6));
-                user.setSalary(resultSet.getBigDecimal(7));
-                user.setNumberMistake(resultSet.getInt(8));
-                user.setExperience(resultSet.getInt(9));
+                user.setSurname(resultSet.getString(4));
+                user.setLogin(resultSet.getString(5));
+                user.setPassword(resultSet.getString(6));
+                user.setDateLastReport(resultSet.getDate(7));
+                user.setCheckWord(resultSet.getString(8));
+                user.setSalary(resultSet.getBigDecimal(9));
                 }
         } catch (SQLException | ConnectionException e){
             throw new DAOException(String.format("Method read(login: '%s') has thrown an exception.", login), e);

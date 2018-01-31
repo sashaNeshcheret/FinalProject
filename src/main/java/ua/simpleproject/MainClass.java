@@ -1,15 +1,5 @@
 package ua.simpleproject;
 
-import ua.simpleproject.entity.CurrentCheque;
-import ua.simpleproject.entity.Product;
-import ua.simpleproject.dto.ProductCurrentCheck;
-import ua.simpleproject.transactions.ConnectionWithOutPool;
-
-import java.math.BigDecimal;
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-
 public class MainClass {
 
 

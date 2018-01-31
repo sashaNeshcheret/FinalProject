@@ -5,6 +5,7 @@ import ua.simpleproject.dao.DAOUsers;
 import ua.simpleproject.dao.Impl.DAOFactory;
 import ua.simpleproject.entity.User;
 import ua.simpleproject.exception.DAOException;
+import ua.simpleproject.validation.EnterDataValidator;
 
 public class LoginLogic {
     private static final Logger logger = Logger.getLogger(LoginLogic.class);
@@ -52,5 +53,16 @@ public class LoginLogic {
            e.printStackTrace();// log4j
        }
        return user;
+   }
+
+   public String validateLoginPassword(String login, String pass){
+       String message = null;
+       if(!EnterDataValidator.isValidLogin(login)){
+           message = "Login is not correct";
+       }
+       if(!EnterDataValidator.isValidLogin(pass)){
+           message = "Password is not correct";
+       }
+       return message;
    }
 }

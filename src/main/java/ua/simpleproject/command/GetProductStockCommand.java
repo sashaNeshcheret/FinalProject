@@ -1,7 +1,7 @@
 package ua.simpleproject.command;
 
 import org.apache.log4j.Logger;
-import ua.simpleproject.dto.ProductCurrentCheck;
+import ua.simpleproject.entity.ProductCurrentCheque;
 import ua.simpleproject.exception.DAOException;
 import ua.simpleproject.services.AddProductStockLogic;
 import ua.simpleproject.services.LoginLogic;
@@ -19,12 +19,12 @@ public class GetProductStockCommand implements ActionCommand{
 
     @Override
     public String execute(HttpServletRequest request) {
-        List<ProductCurrentCheck> list = null;
+        List<ProductCurrentCheque> list = null;
         String page = null;
         HttpSession session = request.getSession();
         String login = (String) session.getAttribute("login");
         if (Objects.isNull(login)){
-            page = "/jsp//login.jsp";
+            page = "/login.jsp";
             logger.error("session time out or you don't login");
             return page;
         }
@@ -40,10 +40,10 @@ public class GetProductStockCommand implements ActionCommand{
             list = addProductStockLogic.getStock(++numberPage);
             request.setAttribute("list", list);
             request.setAttribute("numberPage", numberPage);
-            page = "/jsp/generalMerchant.jsp";
+            page = "/WEB-INF/jsp/generalMerchant.jsp";
             return page;
         }catch(DAOException e){
-            page = "/jsp//error/error1.jsp";
+            page = "/WEB-INF/jsp//error/error1.jsp";
             logger.error("Error connection with data base", e);
             return page;
         }

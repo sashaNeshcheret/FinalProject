@@ -3,9 +3,9 @@ package ua.simpleproject.services;
 import org.apache.log4j.Logger;
 import ua.simpleproject.dao.*;
 import ua.simpleproject.dao.Impl.DAOFactory;
+import ua.simpleproject.entity.ProductCurrentCheque;
 import ua.simpleproject.entity.CurrentCheque;
 import ua.simpleproject.entity.Product;
-import ua.simpleproject.dto.ProductCurrentCheck;
 import ua.simpleproject.entity.Stock;
 import ua.simpleproject.entity.User;
 import ua.simpleproject.exception.ConnectionException;
@@ -42,10 +42,10 @@ public class AddProductLogic {
      * happened during work with database
      * @throws LogicException if doesn't exist a product in stock in enough quantity
      */
-    public List<ProductCurrentCheck> addProduct(String name, String codeStr, String numberStr, String login) throws DAOException, LogicException {
+    public List<ProductCurrentCheque> addProduct(String name, String codeStr, String numberStr, String login) throws DAOException, LogicException {
         Product product = null;
         AddProductLogic addProductLogic = new AddProductLogic();
-        List<ProductCurrentCheck> productCurrentCheckList = new ArrayList<>();
+        List<ProductCurrentCheque> productCurrentCheckList = new ArrayList<>();
         if (codeStr.equals("")) {
             if (!name.equals("")) {
                 product = addProductLogic.defineIdProducts(name);
@@ -67,9 +67,7 @@ public class AddProductLogic {
                 logger.error("During transaction has done error and transaction was canceled");
             }
         }
-
         return productCurrentCheckList;
-
     }
 
     /**According to name define ID of product
@@ -170,7 +168,7 @@ public class AddProductLogic {
      * @throws DAOException this is own exception that combines exceptions which
      * happened during work with database
      */
-    public List<ProductCurrentCheck> getCurrentCheque(String login) {
+    public List<ProductCurrentCheque> getCurrentCheque(String login) {
         DAOProduct daoProduct = daoFactory.getDaoProduct();
         List<CurrentCheque> listCheck = null;
         try {
@@ -178,11 +176,11 @@ public class AddProductLogic {
         } catch (DAOException e) {
             logger.error(String.format("Exception in method daoCurrentCheque.read by login '%s'", login), e);
         }
-        List<ProductCurrentCheck>  listProductsInCheck = new ArrayList<>();
+        List<ProductCurrentCheque>  listProductsInCheck = new ArrayList<>();
 
         for(CurrentCheque currentCheque : listCheck){
-            ProductCurrentCheck productCurrentCheck = new ProductCurrentCheck();
-            Product product =null;
+            ProductCurrentCheque productCurrentCheck = new ProductCurrentCheque();
+            Product product = null;
             try {
                 product = daoProduct.readById(currentCheque.getProductID());
             } catch (DAOException e) {

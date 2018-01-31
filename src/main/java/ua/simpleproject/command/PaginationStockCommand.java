@@ -1,7 +1,7 @@
 package ua.simpleproject.command;
 
 import org.apache.log4j.Logger;
-import ua.simpleproject.dto.ProductCurrentCheck;
+import ua.simpleproject.entity.ProductCurrentCheque;
 import ua.simpleproject.services.LoginLogic;
 
 import javax.servlet.http.HttpServletRequest;
@@ -15,7 +15,7 @@ public class PaginationStockCommand implements ActionCommand {
 
     @Override
     public String execute(HttpServletRequest request) {
-        List<ProductCurrentCheck> list = null;
+        List<ProductCurrentCheque> list = null;
         String page = null;
         /*HttpSession session = request.getSession();
         String login = (String) session.getAttribute("login");

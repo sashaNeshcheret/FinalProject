@@ -9,6 +9,8 @@ public class DAOFactory {
     private DAOProduct daoProduct = new DAOProductImpl();
     private DAOChequeReports daoChequeReports = new DAOChequeReportsImpl();
     private DAOCurrentCheque daoCurrentCheque = new DAOCurrentChequeImpl();
+    private DAOSoldProducts daoSoldProducts = new DAOSoldProductsImpl();
+    private DAOZReportTime daozReportTime = new DAOZReportTimeImpl();
 
     private DAOFactory(){
     }
@@ -31,4 +33,11 @@ public class DAOFactory {
     public DAOCurrentCheque getDaoCurrentCheque() {
         return daoCurrentCheque;
     }
+    public DAOSoldProducts getDaoSoldProducts() {
+        return daoSoldProducts;
+    }
+    public DAOZReportTime getDaoZReportTime() {
+        return daozReportTime;
+    }
+
 }

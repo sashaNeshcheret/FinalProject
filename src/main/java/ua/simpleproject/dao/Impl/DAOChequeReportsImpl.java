@@ -15,11 +15,16 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class DAOChequeReportsImpl implements DAOChequeReports {
-    private Logger logger = Logger.getLogger(Authentification.class);
-    public static final String SQL_INSERT = "INSERT INTO cash_register.check_reports " +
+    private Logger logger = Logger.getLogger(DAOChequeReportsImpl.class);
+    public static final String SQL_INSERT = "INSERT INTO check_reports " +
             "(user_id, number_of_product, check_amount, time_close) VALUES (?,?,?,NOW())";
-    public static final String SQL_SELECT = "SELECT* FROM cash_register.check_reports " +
+    public static final String SQL_SELECT = "SELECT* FROM check_reports " +
+            "where time_close > ?";
+    public static final String SQL_SELECT_BY_ID = "SELECT* FROM check_reports " +
             "where user_id = ? and time_close > ?";
+
+    public static final String SQL_SELECT_LAST = "SELECT * FROM check_reports ORDER BY id DESC LIMIT 1";
+
 
     protected DAOChequeReportsImpl(){
     }
@@ -40,7 +45,6 @@ public class DAOChequeReportsImpl implements DAOChequeReports {
         } catch (SQLException | ConnectionException e) {
             throw new DAOException("Method DAOChequeReportsImpl.create has thrown an exception.", e);
         }
-
     }
 
     /** select information from DB according to current user and data
@@ -56,7 +60,7 @@ public class DAOChequeReportsImpl implements DAOChequeReports {
         java.sql.Date sqlDate = java.sql.Date.valueOf( currentTime );
 
         try(ConnectionWrapper connection = TransactionManager.getConnection()) {
-            PreparedStatement prStatement = connection.preparedStatement(SQL_SELECT);
+            PreparedStatement prStatement = connection.preparedStatement(SQL_SELECT_BY_ID);
             prStatement.setInt(1, userID);
             prStatement.setDate(2, sqlDate);
             ResultSet resultSet = prStatement.executeQuery();
@@ -65,7 +69,7 @@ public class DAOChequeReportsImpl implements DAOChequeReports {
                 int userId = resultSet.getInt(2);
                 int count = resultSet.getInt(3);
                 BigDecimal checkAmount = resultSet.getBigDecimal(4);
-                java.sql.Date timeClose = resultSet.getDate(5);
+                Timestamp timeClose = resultSet.getTimestamp(5);
                 ChequeReports chequeReports = new ChequeReports(id, userId, count, checkAmount, timeClose);
                 chequeReportsList.add(chequeReports);
             }
@@ -73,6 +77,54 @@ public class DAOChequeReportsImpl implements DAOChequeReports {
             throw new DAOException(String.format("Method read(user id: '%d') has thrown an exception.", userID), e);
         }
         return chequeReportsList;
+
+    }
+    /** select information from DB according to current user and data
+     *
+     * @param zReportTime
+     * @return list of objects ChequeReports
+     * @throws DAOException this is own exception that combines exceptions which
+     * happened during work with database
+     */
+    public List<ChequeReports> read(Timestamp zReportTime) throws DAOException {
+        List<ChequeReports> chequeReportsList = new ArrayList<>();
+        try(ConnectionWrapper connection = TransactionManager.getConnection()) {
+            PreparedStatement prStatement = connection.preparedStatement(SQL_SELECT);
+            prStatement.setTimestamp(1, zReportTime);
+            ResultSet resultSet = prStatement.executeQuery();
+            while (resultSet.next()){
+                int id = resultSet.getInt(1);
+                int userId = resultSet.getInt(2);
+                int count = resultSet.getInt(3);
+                BigDecimal checkAmount = resultSet.getBigDecimal(4);
+                Timestamp timeClose = resultSet.getTimestamp(5);
+                ChequeReports chequeReports = new ChequeReports(id, userId, count, checkAmount, timeClose);
+                chequeReportsList.add(chequeReports);
+            }
+        } catch (SQLException | ConnectionException e) {
+            throw new DAOException("Method read() has thrown an exception.", e);
+        }
+        return chequeReportsList;
+
+    }
+    public ChequeReports readLast() throws DAOException {
+        ChequeReports chequeReports = null;
+
+        try(ConnectionWrapper connection = TransactionManager.getConnection()) {
+            PreparedStatement prStatement = connection.preparedStatement(SQL_SELECT_LAST);
+            ResultSet resultSet = prStatement.executeQuery();
+            while (resultSet.next()){
+                int id = resultSet.getInt(1);
+                int userId = resultSet.getInt(2);
+                int count = resultSet.getInt(3);
+                BigDecimal checkAmount = resultSet.getBigDecimal(4);
+                Timestamp timeClose = resultSet.getTimestamp(5);
+                chequeReports = new ChequeReports(id, userId, count, checkAmount, timeClose);
+            }
+        } catch (SQLException | ConnectionException e) {
+            throw new DAOException("Method readLast() has thrown an exception.", e);
+        }
+        return chequeReports;
 
     }
 }

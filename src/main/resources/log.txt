@@ -63,3 +63,647 @@ INFO - session time out or you don't login
 2018-01-26 08:50:38.396 [http-nio-8080-exec-1] INFO  (LoginLogic:22) - check user with login 'івів'
 2018-01-26 08:57:31.937 [http-nio-8080-exec-5] INFO  (LoginLogic:22) - check user with login 'івів'
 2018-01-26 09:30:15.696 [http-nio-8080-exec-1] INFO  (LoginLogic:22) - check user with login ''
+2018-01-28 22:00:29.003 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 22:02:25.708 [http-nio-8080-exec-10] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 22:02:25.716 [http-nio-8080-exec-10] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 22:20:06.822 [http-nio-8080-exec-7] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 22:20:07.549 [http-nio-8080-exec-7] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 22:20:28.693 [http-nio-8080-exec-1] ERROR (AddProductCommand:32) - session time out or you don't login
+2018-01-28 22:20:42.181 [http-nio-8080-exec-5] ERROR (AddProductCommand:32) - session time out or you don't login
+2018-01-28 22:22:35.017 [http-nio-8080-exec-8] ERROR (AddProductCommand:32) - session time out or you don't login
+2018-01-28 22:23:16.091 [http-nio-8080-exec-1] ERROR (AddProductCommand:32) - session time out or you don't login
+2018-01-28 22:25:04.919 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 22:25:05.584 [http-nio-8080-exec-8] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 22:25:18.463 [http-nio-8080-exec-2] ERROR (AddProductCommand:33) - session time out or you don't login
+2018-01-28 22:38:22.286 [http-nio-8080-exec-7] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 22:42:37.747 [http-nio-8080-exec-7] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 22:43:17.156 [http-nio-8080-exec-7] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 22:43:17.900 [http-nio-8080-exec-7] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:07:42.913 [http-nio-8080-exec-2] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:07:43.850 [http-nio-8080-exec-2] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:12:02.022 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:12:09.023 [http-nio-8080-exec-8] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:27:55.103 [http-nio-8080-exec-6] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:27:58.801 [http-nio-8080-exec-6] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:28:40.488 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:28:41.264 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:29:32.308 [http-nio-8080-exec-10] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:29:33.027 [http-nio-8080-exec-10] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:32:52.165 [http-nio-8080-exec-10] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:32:52.889 [http-nio-8080-exec-10] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:38:15.889 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:38:16.983 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:49:11.342 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:49:12.481 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-28 23:56:04.862 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-28 23:56:05.802 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-29 00:15:39.122 [http-nio-8080-exec-3] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-29 00:15:39.956 [http-nio-8080-exec-3] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-29 00:18:37.064 [http-nio-8080-exec-3] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-29 00:18:37.857 [http-nio-8080-exec-3] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-29 00:25:39.594 [http-nio-8080-exec-10] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-29 00:25:40.458 [http-nio-8080-exec-10] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-29 00:53:03.122 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-29 00:53:06.651 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-29 22:48:48.549 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-29 22:48:57.396 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 00:17:29.791 [http-nio-8080-exec-2] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 00:17:34.341 [http-nio-8080-exec-2] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 00:39:15.672 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 00:39:20.177 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 00:53:42.811 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 00:53:44.636 [http-nio-8080-exec-8] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 00:59:18.765 [http-nio-8080-exec-3] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 00:59:19.774 [http-nio-8080-exec-3] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 01:10:23.256 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 01:10:24.320 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 01:23:41.657 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 01:23:43.667 [http-nio-8080-exec-8] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 01:24:32.458 [http-nio-8080-exec-5] ERROR (AddProductCommand:59) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:40)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:46)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:43)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cash_register`.`sold_product`, CONSTRAINT `sold_product_id` FOREIGN KEY (`sold_product_id`) REFERENCES `check_reports` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:37)
+	... 34 more
+2018-01-30 01:41:21.364 [http-nio-8080-exec-9] ERROR (AddProductCommand:34) - session time out or you don't login
+2018-01-30 01:41:21.395 [http-nio-8080-exec-7] ERROR (AddProductCommand:34) - session time out or you don't login
+2018-01-30 01:44:22.407 [http-nio-8080-exec-6] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 01:44:26.083 [http-nio-8080-exec-6] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 01:48:45.507 [http-nio-8080-exec-5] ERROR (AddProductCommand:59) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:40)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:46)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:43)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cash_register`.`sold_product`, CONSTRAINT `sold_product_id` FOREIGN KEY (`sold_product_id`) REFERENCES `check_reports` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:37)
+	... 34 more
+2018-01-30 01:58:16.447 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'first'
+2018-01-30 01:58:17.616 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 02:08:10.501 [http-nio-8080-exec-7] ERROR (AddProductCommand:59) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:40)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:46)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:43)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cash_register`.`sold_product`, CONSTRAINT `sold_product_id` FOREIGN KEY (`sold_product_id`) REFERENCES `check_reports` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:37)
+	... 34 more
+2018-01-30 02:08:17.946 [http-nio-8080-exec-10] ERROR (AddProductCommand:59) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:40)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:46)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:43)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cash_register`.`sold_product`, CONSTRAINT `sold_product_id` FOREIGN KEY (`sold_product_id`) REFERENCES `check_reports` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:37)
+	... 34 more
+2018-01-30 02:19:12.681 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'first'
+2018-01-30 02:19:12.787 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 12:51:19.967 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 12:51:26.181 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 12:54:06.650 [http-nio-8080-exec-4] ERROR (AddProductCommand:63) - quantity of goods in stock less than needed
+ua.simpleproject.exception.LogicException
+	at ua.simpleproject.dao.Impl.DAOStockImpl.read(DAOStockImpl.java:79)
+	at ua.simpleproject.services.AddProductLogic.reduceOnStock(AddProductLogic.java:107)
+	at ua.simpleproject.services.AddProductLogic.addProduct(AddProductLogic.java:59)
+	at ua.simpleproject.command.AddProductCommand.execute(AddProductCommand.java:46)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doPost(Servlet.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-01-30 15:45:59.490 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 15:46:05.857 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 15:50:18.024 [http-nio-8080-exec-2] ERROR (AddProductCommand:63) - quantity of goods in stock less than needed
+ua.simpleproject.exception.LogicException
+	at ua.simpleproject.dao.Impl.DAOStockImpl.read(DAOStockImpl.java:79)
+	at ua.simpleproject.services.AddProductLogic.reduceOnStock(AddProductLogic.java:107)
+	at ua.simpleproject.services.AddProductLogic.addProduct(AddProductLogic.java:59)
+	at ua.simpleproject.command.AddProductCommand.execute(AddProductCommand.java:46)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doPost(Servlet.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-01-30 15:50:58.554 [http-nio-8080-exec-4] ERROR (AddProductCommand:61) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:40)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:46)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:44)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cash_register`.`sold_product`, CONSTRAINT `sold_product_id` FOREIGN KEY (`sold_product_id`) REFERENCES `check_reports` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:37)
+	... 34 more
+2018-01-30 15:51:23.435 [http-nio-8080-exec-9] ERROR (AddProductCommand:61) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:40)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:46)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:44)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cash_register`.`sold_product`, CONSTRAINT `sold_product_id` FOREIGN KEY (`sold_product_id`) REFERENCES `check_reports` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:37)
+	... 34 more
+2018-01-30 15:54:35.001 [http-nio-8080-exec-2] INFO  (LoginLogic:23) - check user with login 'first'
+2018-01-30 15:54:36.391 [http-nio-8080-exec-2] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 15:55:14.141 [http-nio-8080-exec-5] ERROR (AddProductCommand:63) - quantity of goods in stock less than needed
+ua.simpleproject.exception.LogicException
+	at ua.simpleproject.dao.Impl.DAOStockImpl.read(DAOStockImpl.java:79)
+	at ua.simpleproject.services.AddProductLogic.reduceOnStock(AddProductLogic.java:107)
+	at ua.simpleproject.services.AddProductLogic.addProduct(AddProductLogic.java:59)
+	at ua.simpleproject.command.AddProductCommand.execute(AddProductCommand.java:46)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doPost(Servlet.java:43)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2018-01-30 16:21:36.509 [http-nio-8080-exec-3] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 16:21:38.547 [http-nio-8080-exec-3] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 16:24:18.476 [http-nio-8080-exec-6] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 16:24:19.732 [http-nio-8080-exec-6] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 16:32:15.269 [http-nio-8080-exec-6] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 16:32:16.652 [http-nio-8080-exec-6] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 17:06:08.968 [http-nio-8080-exec-10] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 17:06:11.623 [http-nio-8080-exec-10] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 18:04:38.104 [http-nio-8080-exec-1] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 18:04:39.979 [http-nio-8080-exec-1] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 19:06:00.439 [http-nio-8080-exec-1] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 19:06:05.324 [http-nio-8080-exec-1] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 19:20:14.513 [http-nio-8080-exec-3] ERROR (AddProductCommand:64) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:40)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:46)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:44)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`cash_register`.`sold_product`, CONSTRAINT `sold_product_idx` FOREIGN KEY (`sold_product_id`) REFERENCES `check_reports` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOSoldProductsImpl.create(DAOSoldProductsImpl.java:37)
+	... 34 more
+2018-01-30 19:25:45.275 [http-nio-8080-exec-3] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 19:25:48.242 [http-nio-8080-exec-3] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 19:45:17.667 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 19:45:20.322 [http-nio-8080-exec-8] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 19:48:16.033 [http-nio-8080-exec-5] ERROR (AddProductCommand:64) - Insert number isn't a code or quantity of it
+ua.simpleproject.exception.DAOException: Method DAOChequeReportsImpl.create has thrown an exception.
+	at ua.simpleproject.dao.Impl.DAOChequeReportsImpl.create(DAOChequeReportsImpl.java:42)
+	at ua.simpleproject.services.PayAndPrintChequeLogic.payAndPrintCheque(PayAndPrintChequeLogic.java:43)
+	at ua.simpleproject.command.PayAndPrintChequeCommand.execute(PayAndPrintChequeCommand.java:44)
+	at ua.simpleproject.servlets.Servlet.processRequest(Servlet.java:56)
+	at ua.simpleproject.servlets.Servlet.doGet(Servlet.java:39)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.SecurityFilter.doFilter(SecurityFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at ua.simpleproject.filters.EncodingFilter.doFilter(EncodingFilter.java:22)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:501)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:533)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:115)
+	at com.mysql.cj.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:1983)
+	at com.mysql.cj.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1826)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2034)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:1970)
+	at com.mysql.cj.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5001)
+	at com.mysql.cj.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1955)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:97)
+	at ua.simpleproject.dao.Impl.DAOChequeReportsImpl.create(DAOChequeReportsImpl.java:40)
+	... 34 more
+2018-01-30 19:56:26.539 [http-nio-8080-exec-7] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 19:56:29.503 [http-nio-8080-exec-7] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 22:09:52.355 [http-nio-8080-exec-3] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 22:10:02.108 [http-nio-8080-exec-3] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 22:30:01.061 [http-nio-8080-exec-1] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 22:30:04.601 [http-nio-8080-exec-1] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-30 22:57:42.929 [http-nio-8080-exec-7] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-30 22:57:47.756 [http-nio-8080-exec-7] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 11:54:45.185 [http-nio-8080-exec-6] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-31 11:54:51.398 [http-nio-8080-exec-6] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 12:01:27.439 [http-nio-8080-exec-4] INFO  (LoginLogic:23) - check user with login 'first'
+2018-01-31 12:01:27.521 [http-nio-8080-exec-4] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 13:10:42.036 [http-nio-8080-exec-7] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-31 13:10:48.476 [http-nio-8080-exec-7] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 13:45:36.060 [http-nio-8080-exec-1] INFO  (LoginLogic:23) - check user with login 'best'
+2018-01-31 13:45:46.078 [http-nio-8080-exec-1] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 13:59:06.297 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'general'
+2018-01-31 13:59:06.374 [http-nio-8080-exec-8] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 14:11:18.200 [http-nio-8080-exec-10] INFO  (LoginLogic:23) - check user with login 'main'
+2018-01-31 14:11:18.272 [http-nio-8080-exec-10] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 15:12:08.931 [http-nio-8080-exec-5] ERROR (OutXCommand:26) - 
+2018-01-31 15:12:10.703 [http-nio-8080-exec-6] ERROR (OutXCommand:26) - 
+2018-01-31 15:12:10.991 [http-nio-8080-exec-9] ERROR (OutXCommand:26) - 
+2018-01-31 15:13:10.035 [http-nio-8080-exec-3] INFO  (LoginLogic:23) - check user with login 'main'
+2018-01-31 15:13:16.237 [http-nio-8080-exec-3] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 16:02:01.111 [http-nio-8080-exec-1] INFO  (LoginLogic:23) - check user with login 'main'
+2018-01-31 16:02:04.342 [http-nio-8080-exec-1] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 17:45:37.099 [http-nio-8080-exec-5] INFO  (LoginLogic:23) - check user with login 'main'
+2018-01-31 17:45:40.994 [http-nio-8080-exec-5] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 17:57:29.478 [http-nio-8080-exec-9] INFO  (LoginLogic:23) - check user with login 'main'
+2018-01-31 17:57:30.598 [http-nio-8080-exec-9] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 17:59:21.608 [http-nio-8080-exec-2] ERROR (AddProductCommand:42) - 
+2018-01-31 18:58:23.763 [http-nio-8080-exec-10] INFO  (LoginLogic:23) - check user with login 'main'
+2018-01-31 18:58:24.974 [http-nio-8080-exec-10] INFO  (LoginLogic:49) - session time out or you don't login
+2018-01-31 19:02:10.933 [http-nio-8080-exec-8] INFO  (LoginLogic:23) - check user with login 'main'
+2018-01-31 19:02:12.106 [http-nio-8080-exec-8] INFO  (LoginLogic:49) - session time out or you don't login

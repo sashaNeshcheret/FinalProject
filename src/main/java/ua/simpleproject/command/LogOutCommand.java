@@ -9,7 +9,7 @@ public class LogOutCommand implements ActionCommand {
 
     @Override
     public String execute(HttpServletRequest request) {
-        String page = "/jsp/login.jsp";
+        String page = "/login.jsp";
         //deleting session
         request.getSession().invalidate();
         return page;

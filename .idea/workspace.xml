@@ -6,7 +6,159 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a7bdadb-d33a-45cb-8ae8-e4b98240c0fe" name="Default" comment="" />
+    <list default="true" id="6a7bdadb-d33a-45cb-8ae8-e4b98240c0fe" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/MainClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/NewMainClass.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/NewMainClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/ActionFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/ActionFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductStockCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductStockCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CloseChequeCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CloseChequeCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CommandEnum.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CommandEnum.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CreateProductCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CreateProductCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/EmptyCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/EmptyCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GetProductStockCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GetProductStockCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LogOutCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LogOutCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCheckCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCheckCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCurrentCheckCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCurrentCheckCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutXCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutXCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PaginationStockCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PaginationStockCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/RegistrationCommand.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/RegistrationCommand.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOChequeReports.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOChequeReports.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOUsersImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOUsersImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/dto/ProductCurrentCheck.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ProductCurrentCheque.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ChequeReports.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ChequeReports.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/exception/TransactionException.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/exception/TransactionException.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductLogic.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductLogic.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductStockLogic.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductStockLogic.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/CloseChequeLogic.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/CloseChequeLogic.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/LoginLogic.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/LoginLogic.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/OutXLogic.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/OutXLogic.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/simpleproject/validation/EnterDataValidator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/simpleproject/validation/EnterDataValidator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log.txt" afterPath="$PROJECT_DIR$/src/main/resources/log.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/XReport.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/XReport.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/closeCheck.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/closeCheque.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/error/error.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/error/error.png" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/error/error1.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error/error1.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/general.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/general.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/generalMerchant.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/generalMerchant.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/generalMerchant1.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/generalMerchant1.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/mainCopy.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/openCheque.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/openCheque.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/openedCheque.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/openedCheque.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/payCheck.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/registration.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/test/ua/simpleproject/UsersJdbcDAOTest.java" afterPath="$PROJECT_DIR$/src/test/ua/simpleproject/UsersJdbcDAOTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/log.txt" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/log.txt" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/DTO/ProductCurrentCheck.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/MainClass.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/MainClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/ActionFactory.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/ActionFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/AddProductCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/AddProductCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/AddProductStockCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/AddProductStockCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/CloseChequeCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/CloseChequeCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/CommandEnum.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/CommandEnum.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/CreateProductCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/CreateProductCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/EmptyCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/EmptyCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/GetProductStockCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/GetProductStockCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/LogOutCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/LogOutCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/LoginCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/LoginCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/OpenCheckCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/OpenCheckCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/OpenCurrentCheckCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/OpenCurrentCheckCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/OutXCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/OutXCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/PaginationStockCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/PaginationStockCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/RegistrationCommand.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/command/RegistrationCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/DAOChequeReports.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/DAOChequeReports.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOFactory.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOUsersImpl.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/dao/Impl/DAOUsersImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/entity/ChequeReports.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/entity/ChequeReports.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/entity/User.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/exception/TransactionException.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/exception/TransactionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/AddProductLogic.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/AddProductLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/AddProductStockLogic.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/AddProductStockLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/CloseChequeLogic.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/CloseChequeLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/LoginLogic.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/LoginLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/OutXLogic.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/services/OutXLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/validation/EnterDataValidator.class" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/ua/simpleproject/validation/EnterDataValidator.class" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/XReport.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/closeCheck.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/error/error.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/error/error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/error/error1.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/general.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/generalMerchant.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/generalMerchant1.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/login.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/main.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/mainCopy.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/openCheque.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/openedCheque.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/payCheck.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/jsp/registration.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log.txt" afterPath="$PROJECT_DIR$/target/classes/log.txt" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/MainClass.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/MainClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/NewMainClass.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/NewMainClass.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/ActionFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/AddProductCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/AddProductCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/AddProductStockCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/AddProductStockCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CloseChequeCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CloseChequeCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$11.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$12.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$13.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum$9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CommandEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CreateProductCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/CreateProductCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/EmptyCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/EmptyCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/GetProductStockCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/GetProductStockCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/LogOutCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/LogOutCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/LoginCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/LoginCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/OpenCheckCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/OpenCheckCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/OpenCurrentCheckCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/OpenCurrentCheckCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/OutXCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/OutXCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/PaginationStockCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/PaginationStockCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/RegistrationCommand.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/command/RegistrationCommand.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/configaration/SecurityConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/DAOChequeReports.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/DAOChequeReports.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOFactory.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOUsersImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/dao/Impl/DAOUsersImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/dto/ProductCurrentCheck.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/entity/ChequeReports.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/entity/ChequeReports.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/exception/TransactionException.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/exception/TransactionException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/AddProductLogic.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/AddProductLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/AddProductStockLogic.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/AddProductStockLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/CloseChequeLogic.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/CloseChequeLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/LoginLogic.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/LoginLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/OutXLogic.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/services/OutXLogic.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/simpleproject/validation/EnterDataValidator.class" afterPath="$PROJECT_DIR$/target/classes/ua/simpleproject/validation/EnterDataValidator.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/simpleproject/UsersJdbcDAOTest.class" afterPath="$PROJECT_DIR$/target/test-classes/ua/simpleproject/UsersJdbcDAOTest.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,104 +188,104 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java">
+      <file leaf-file-name="PayAndPrintChequeCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PayAndPrintChequeCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="46">
+              <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/filters/SecurityFilter.java">
+      <file leaf-file-name="SoldProducts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/SoldProducts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="64" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncodingFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/filters/EncodingFilter.java">
+      <file leaf-file-name="DeleteChequeLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/DeleteChequeLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteChequeCommand.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/DeleteChequeCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAOSoldProductsImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOSoldProductsImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenCurrentCheckCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCurrentCheckCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionPool.java">
+      <file leaf-file-name="OutXCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutXCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutYCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutYCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaginationStockCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PaginationStockCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionWithOutPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionWithOutPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/TransactionManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnterDataValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/validation/EnterDataValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#769#770#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1123#1124#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="171" column="4" lean-forward="false" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewMainClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/NewMainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -160,57 +312,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/OpenChequeLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CreateProductCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/EmptyCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOUsersImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/servlets/Servlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductStockLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GetProductStock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CommandEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/generalMerchant1.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PaginationStockCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductStockCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LogOutCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutXCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GetProductStockCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/generalMerchant.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCheckCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/LoginLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/resourceProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/resourceProperties/LanguagePropsManager.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/resources_en.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/resources.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/filters/SecurityFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/configaration/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CloseChequeCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductLogic.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/openCheque.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/openedCheque.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCurrentCheckCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOProductImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/CreateTestDB.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/CreateTestDataDBProduct.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOStockImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/DeleteTestDataDB.sql" />
-        <option value="$PROJECT_DIR$/src/main/resources/CreateTestDataDB.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/RegistrationCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/jsp/registration.jsp" />
         <option value="$PROJECT_DIR$/src/test/ua/simpleproject/UsersJdbcDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/test/ua/simpleproject/StockDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/test/ua/simpleproject/ProductDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/CreateTestDataDBCurrent.sql" />
-        <option value="$PROJECT_DIR$/src/test/ua/simpleproject/CurrentChequeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/XReport.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/validation/vd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionWithOutPool.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/validation/EnterDataValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dto/ProductCurrentCheque.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ProductCurrentCheque.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PrintCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/daoSoldProducts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/daoSoldProductsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DaoSoldProducts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/SoldProducts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOSoldProductsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOSoldProducts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CloseChequeCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/CloseChequeLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/closeCheque.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payPrintCheque1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ChequeReports.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/exception/TransactionException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/PayAndPrintChequeLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PayAndPrintChequeCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/NewMainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionWithOutPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/openedCheque.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payPrintCheque.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/general.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/fd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GoToMainCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GoToRegistrationCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutXCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ZReportTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOZReportTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOZReportTimeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOChequeReports.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/OutXLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/XReport.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CommandEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/DeleteCheque.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/services/DeleteChequeLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/simpleproject/command/DeleteChequeCommand.java" />
       </list>
     </option>
   </component>
@@ -235,7 +387,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1446" />
+    <option name="width" value="804" />
     <option name="height" value="860" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -278,8 +430,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,7 +481,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="simpleproject" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleproject" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
@@ -345,40 +516,6 @@
               <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleproject" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleproject" type="462c0819:PsiDirectoryNode" />
-              <item name="transactions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simpleproject" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -387,6 +524,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -395,16 +541,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SimpleProject2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleProject2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleproject" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -416,29 +569,29 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="H2&#10;MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\jsp\error" />
-      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\jsp\error1" />
-      <recent name="D:\IdeaProjects\SimpleProject2\src\main\resources" />
-      <recent name="C:\Users\Нещерет\IdeaProjects\SimpleProject2\src\main\webapp\jsp\error" />
-      <recent name="C:\Users\Нещерет\IdeaProjects\SimpleProject2\src\main\webapp\jsp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ua.simpleproject.exception" />
+      <recent name="ua.simpleproject.command" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\WEB-INF\jsp" />
       <recent name="D:\IdeaProjects\SimpleProject2\src\main\resources" />
       <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\jsp" />
       <recent name="C:\Users\Нещерет\IdeaProjects\SimpleProject2\src\main\webapp\jsp" />
       <recent name="C:\Users\Нещерет\IdeaProjects\SimpleProject2\src\main\webapp\css" />
-      <recent name="C:\Users\Нещерет\IdeaProjects\SimpleProject2\src\main\java\ua\simpleproject" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.simpleproject.services" />
       <recent name="ua.simpleproject" />
       <recent name="ua.simpleproject.entity" />
       <recent name="ua.simpleproject.dao" />
-      <recent name="ua.simpleproject.services" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ua.simpleproject.exception" />
-      <recent name="ua.simpleproject.command" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\WEB-INF" />
+      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp" />
+      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\META-INF" />
+      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\jsp\error" />
+      <recent name="D:\IdeaProjects\SimpleProject2\src\main\webapp\jsp\error1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,7 +606,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewMainClass">
+  <component name="RunManager" selected="Tomcat Server.SimpleProject2">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -643,7 +796,7 @@
       <listeners />
     </configuration>
     <configuration name="SimpleProject2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.2" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/login.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="SimpleProject:war exploded">
@@ -724,11 +877,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.SimpleProject2" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StockDAOTest.createTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in SimpleProject" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CurrentChequeTest.createTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrentChequeTest" />
-      <item index="5" class="java.lang.String" itemvalue="Application.NewMainClass" />
+      <item index="1" class="java.lang.String" itemvalue="Application.NewMainClass" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StockDAOTest.createTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in SimpleProject" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CurrentChequeTest.createTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.CurrentChequeTest" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -772,7 +925,13 @@
       <workItem from="1516793879913" duration="33676000" />
       <workItem from="1516837127675" duration="31019000" />
       <workItem from="1516948466495" duration="8739000" />
-      <workItem from="1517040462481" duration="2223000" />
+      <workItem from="1517040462481" duration="18532000" />
+      <workItem from="1517163670451" duration="11280000" />
+      <workItem from="1517177288867" duration="5718000" />
+      <workItem from="1517232950588" duration="29515000" />
+      <workItem from="1517308937389" duration="19933000" />
+      <workItem from="1517349208327" duration="4115000" />
+      <workItem from="1517388436856" duration="22193000" />
     </task>
     <servers />
   </component>
@@ -809,11 +968,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="541167000" />
+    <option name="totallyTimeSpent" value="650230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -826,11 +984,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51432294" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294271" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.244375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -838,7 +996,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31770834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42708334" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -858,20 +1016,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductLogic.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/MainClass.java</url>
-          <line>71</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/RegistrationCommand.java</url>
-          <line>20</line>
+          <line>21</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
@@ -894,18 +1046,6 @@
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GetProductStockCommand.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCheckCommand.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/ua/simpleproject/ProductDAOTest.java</url>
           <line>91</line>
           <properties />
@@ -918,335 +1058,390 @@
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java</url>
-          <line>33</line>
+          <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PayAndPrintChequeCommand.java</url>
+          <line>42</line>
           <properties />
-          <option name="timeStamp" value="58" />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOChequeReports.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/simpleproject/NewMainClass.java</url>
-          <line>19</line>
+          <line>63</line>
           <properties />
-          <option name="timeStamp" value="61" />
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="62" />
+      <option name="time" value="77" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="e" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/resourceProperties/LanguagePropsManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/exception/DAOException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/resources_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="92" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/resources.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/error/error1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/http/HttpServletResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="569" column="28" lean-forward="false" selection-start-line="569" selection-start-column="28" selection-end-line="569" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/EmptyCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/ActionFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/exception/TransactionException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/configaration/SecurityConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="323">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/authentification/Authentification.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/PayAndPrintChequeLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="69" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOCurrentCheque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/openCheque.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GetProductStockCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="44" column="31" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/AddProductLogic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="188" column="74" lean-forward="false" selection-start-line="188" selection-start-column="74" selection-end-line="188" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CommandEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="63" column="6" lean-forward="false" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CloseChequeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/openedCheque.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCurrentCheckCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductStockCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="53" column="41" lean-forward="false" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="118" lean-forward="false" selection-start-line="6" selection-start-column="118" selection-end-line="6" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="62" lean-forward="false" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOProductImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="90" lean-forward="true" selection-start-line="17" selection-start-column="90" selection-end-line="17" selection-end-column="90" />
+        <state relative-caret-position="153">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOStockImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionWithOutPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="114" column="50" lean-forward="false" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/error/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/DeleteTestDataDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ua/simpleproject/UsersJdbcDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="47" column="45" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/CurrentCheque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="100" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/CreateDataMySQLDB">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="98" lean-forward="false" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/CreateTestDataDBProduct.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="65" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/CreateTestDataDBCurrent.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/CreateTestDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/CreateTestDataDB.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ua/simpleproject/ProductDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="55" column="12" lean-forward="false" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ua/simpleproject/StockDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="46" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ua/simpleproject/CurrentChequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="59" column="53" lean-forward="false" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+        <state relative-caret-position="323">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOCurrentChequeImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/XReport.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+        <state relative-caret-position="161">
+          <caret line="81" column="82" lean-forward="false" selection-start-line="81" selection-start-column="82" selection-end-line="81" selection-end-column="82" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/NewMainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="139">
+          <caret line="61" column="143" lean-forward="false" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="143" />
+          <folding>
+            <marker date="1517353959105" expanded="true" signature="2300:2400" ph="SELECT * FRO... current_check" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/OpenChequeLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/TransactionManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/RegistrationCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="-38">
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/openCheque.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/openedCheque.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/payPrintCheque.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/general.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOUsersImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOStockImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="76" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="21" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ZReportTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOZReportTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOZReportTimeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOChequeReportsImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="88" column="79" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/DAOChequeReports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/OutXLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="70" lean-forward="false" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/ChequeReports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/XReport.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="30" column="75" lean-forward="false" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/CloseChequeLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/CreateProductLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/AddProductStockCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CloseChequeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CommandEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="71" column="50" lean-forward="false" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/CreateProductCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GetProductStockCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GoToMainCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/GoToRegistrationCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-845">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LogOutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCheckCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OpenCurrentCheckCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutXCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/OutYCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PaginationStockCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
@@ -1254,82 +1449,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/transactions/ConnectionWithOutPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/PayAndPrintChequeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="89" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+        <state relative-caret-position="46">
+          <caret line="46" column="48" lean-forward="false" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/filters/SecurityFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/entity/SoldProducts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="49" selection-end-line="46" selection-end-column="64" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/filters/EncodingFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/dao/Impl/DAOSoldProductsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/LoginCommand.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="496">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/regex/Matcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/services/DeleteChequeLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="1273" column="22" lean-forward="true" selection-start-line="1273" selection-start-column="22" selection-end-line="1273" selection-end-column="22" />
-          <folding>
-            <element signature="e#21591#21592#0" expanded="false" />
-            <element signature="e#21636#21637#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/validation/EnterDataValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="18" column="65" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="171" column="4" lean-forward="false" selection-start-line="171" selection-start-column="4" selection-end-line="171" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/NewMainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/simpleproject/command/DeleteChequeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

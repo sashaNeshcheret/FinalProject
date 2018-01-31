@@ -18,15 +18,15 @@ public class OpenCheckCommand implements ActionCommand {
         String login = (String) session.getAttribute("login");
         if(Objects.isNull(login)){
             request.setAttribute("errorLogin", "Sorry, but you do not have the right to open a check");
-            page = "/jsp//login.jsp";
+            page = "/login.jsp";
             return page;
         }
         if(openChequeLogic.openCheque(login)){
-            page = "/jsp/openCheque.jsp";
+            page = "/WEB-INF/jsp/openCheque.jsp";
             return page;
         } else {
             request.setAttribute("openCheque", "Sorry, but for technical reasons you can not open a check");
-            page = "/jsp/error/error1.jsp";
+            page = "/WEB-INF/jsp/error/error1.jsp";
         }
         return page;
     }

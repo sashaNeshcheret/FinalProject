@@ -15,7 +15,6 @@ public class ActionFactory {
         }
     // получение объекта, соответствующего команде
         try {
-            System.out.println("ertyujhgfdfghjhgfdfgh" + action);
             CommandEnum currentEnum = CommandEnum.valueOf(action.toUpperCase());
             current = currentEnum.getCurrentCommand();
         } catch (IllegalArgumentException e) {

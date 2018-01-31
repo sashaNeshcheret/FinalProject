@@ -12,6 +12,7 @@ public class RegistrationCommand implements ActionCommand {
 
     private static final String PARAM_POSITION = "position";
     private static final String PARAM_NAME = "name";
+    private static final String PARAM_SURNAME = "surname";
     private static final String PARAM_LOGIN = "login";
     private static final String PARAM_PASSWORD = "password";
     private static final String PARAM_CHECK_WORD = "check word";
@@ -22,12 +23,13 @@ public class RegistrationCommand implements ActionCommand {
 // извлечение инфо из запроса
         String position = request.getParameter(PARAM_POSITION);
         String name = request.getParameter(PARAM_NAME);
+        String surname = request.getParameter(PARAM_SURNAME);
         String login = request.getParameter(PARAM_LOGIN);
         String pass = request.getParameter(PARAM_PASSWORD);
         String checkWord = request.getParameter(PARAM_CHECK_WORD);
 
         if (RegistrationLogic.checkLoginForFree(login)) {
-            User user = new User(position, name, login, pass,checkWord);
+            User user = new User(position, name, surname, login, pass,checkWord);
             RegistrationLogic.registration(user);
 
             request.setAttribute("name", name);
@@ -43,15 +45,15 @@ public class RegistrationCommand implements ActionCommand {
                 session.setAttribute("position", position);
             }
             if(position.equals("merchant")){
-                page = "/jsp/generalMerchant.jsp";
+                page = "/WEB-INF/jsp/generalMerchant.jsp";
                 return page;
             }else if(position.equals("senior_cashier") || position.equals("cashier")){
-                page = "/jsp/general.jsp";
+                page = "/WEB-INF/jsp/general.jsp";
                 return page;
             }
-            page = "/jsp/error/error1.jsp";
+            page = "/WEB-INF/jsp/error/error1.jsp";
         } else {
-            page = "/jsp/registration.jsp";
+            page = "/WEB-INF/jsp/registration.jsp";
         }
         return page;
     }

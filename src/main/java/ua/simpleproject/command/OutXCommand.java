@@ -22,18 +22,17 @@ public class OutXCommand implements ActionCommand {
         String login = (String) session.getAttribute("login");
 
         if (Objects.isNull(login)){
-            page = "/jsp//login.jsp";
+            page = "/login.jsp";
             logger.error("");
             return page;
         }
         try{
-            chequeReportsList = outXReport.outXReport(login);
-
-            page = "/jsp/XReport.jsp";
+            chequeReportsList = outXReport.outXReport();
+            page = "/WEB-INF/jsp/XReport.jsp";
             request.setAttribute("chequeReportsList", chequeReportsList);
             return page;
         }catch(Exception e){
-            page = "/jsp//error/error1.jsp";
+            page = "/WEB-INF/jsp//error/error1.jsp";
             logger.error("", e);
             return page;
         }

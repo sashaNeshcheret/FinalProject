@@ -14,8 +14,10 @@ import java.util.List;
 
 public class DAOCurrentChequeImpl implements DAOCurrentCheque {
     private static final String SQL_SELECT_BY_PRODUCT_ID = "SELECT * FROM current_check WHERE product_id = ?";
-    private static final String SQL_SELECT_BY_USER_LOGIN = "SELECT * FROM current_check WHERE user_id = " +
-            "(SELECT userId FROM users WHERE login = ?)";
+    //private static final String SQL_SELECT_BY_USER_LOGIN = "SELECT * FROM current_check WHERE user_id = " +
+    //        "(SELECT userId FROM users WHERE login = ?)";
+    private static final String SQL_SELECT_BY_USER_LOGIN = "select current_check.* from current_check right join " +
+            "users on current_check.user_id=users.userid where users.login=?";
     private static final String SQL_SELECT = "SELECT * FROM current_check WHERE " +
             "((product_id = (SELECT id FROM products WHERE code_product = ?)) & (user_id = ?))";
     private static final String SQL_INSERT = "INSERT INTO current_check (product_id, user_id, count, result_price) VALUES (?,?,?,?)";
@@ -90,8 +92,7 @@ public class DAOCurrentChequeImpl implements DAOCurrentCheque {
                 list.add(currentCheque);
             }
         } catch (SQLException | ConnectionException sqlEx) {
-            System.out.println("Mistake in getting opened list");
-            sqlEx.printStackTrace();
+//System.out.println("Mistake in getting opened list");
         }
         return list;
     }

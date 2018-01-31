@@ -1,7 +1,7 @@
 package ua.simpleproject.command;
 
 import org.apache.log4j.Logger;
-import ua.simpleproject.dto.ProductCurrentCheck;
+import ua.simpleproject.entity.ProductCurrentCheque;
 import ua.simpleproject.services.AddProductLogic;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,14 +20,14 @@ public class OpenCurrentCheckCommand implements ActionCommand {
         String login = (String) session.getAttribute("login");
         if(Objects.isNull(login)){
             request.setAttribute("errorLogin", "Sorry, but you do not have the right to open a check");
-            page = "/jsp//login.jsp";
+            page = "/login.jsp";
             return page;
         }
 
-        List<ProductCurrentCheck> list = null;
+        List<ProductCurrentCheque> list = null;
         list = addProductLogic.getCurrentCheque(login);
         request.setAttribute("list", list);
-        page = "/jsp/openedCheque.jsp";
+        page = "/WEB-INF/jsp/openedCheque.jsp";
         return page;
     }
 }
